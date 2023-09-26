@@ -2,12 +2,12 @@
 
 New Columns were created for the following:
 * Ticker = Each Unique Ticker 
-* Yearly Change = <Closing Price at End of Year> - <Opening Price at Start of Year>
-* Percent Change = -(1-(<Closing Price at End of Year> / <Opening Price at Start of Year>))
-* Total Stock Volume = SUM(<Volume at Start of Year> : <Volume at End of Year>)
-* Greatest Percent Increase = MAX(<Percent Change>), and corresponding <Ticker>
-* Greatest Percent Decrease = MIN(<Percent Change>), and corresponding <Ticker>
-* Greatest Total Volume = MAX(<Total Stock Volume>), and corresponding <Ticker>
+* Yearly Change = '\<Closing Price at End of Year> - \<Opening Price at Start of Year>'
+* Percent Change = '-(1-(\<Closing Price at End of Year> / \<Opening Price at Start of Year>))'
+* Total Stock Volume = SUM(\<Volume at Start of Year> : \<Volume at End of Year>)
+* Greatest Percent Increase = MAX(\<Percent Change>), and corresponding \<Ticker>
+* Greatest Percent Decrease = MIN(\<Percent Change>), and corresponding \<Ticker>
+* Greatest Total Volume = MAX(\<Total Stock Volume>), and corresponding \<Ticker>
 	
 Conditional Formatting used for the following Columns:
 * Yearly Change - Highlighted positive change in green and negative change in red
